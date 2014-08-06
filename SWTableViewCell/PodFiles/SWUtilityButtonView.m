@@ -57,7 +57,7 @@
 - (void)setUtilityButtons:(NSArray *)utilityButtons
 {
     // if no width specified, use the default width
-    [self setUtilityButtons:utilityButtons WithButtonWidth:kUtilityButtonWidthDefault];
+    [self setUtilityButtons:utilityButtons WithButtonWidth:self.utilityButtonWidth];
 }
 
 - (void)setUtilityButtons:(NSArray *)utilityButtons WithButtonWidth:(CGFloat)width
